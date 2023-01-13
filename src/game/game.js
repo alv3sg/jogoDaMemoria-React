@@ -44,7 +44,7 @@ let game = {
     },
 
     checkGameOver(){
-        return this.cards.filter(card => !card.flipped).length == 0 // retorna true caso nao haja nenhuma carta flipada
+        return this.cards.filter(card => !card.flipped).length === 0 // retorna true caso nao haja nenhuma carta flipada
     },
 
     techs: [
